@@ -25,8 +25,6 @@
 		01024F5118E4EF5800F2B416 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01024F5018E4EF5800F2B416 /* CoreBluetooth.framework */; };
 		01024F5318E4EF6900F2B416 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01024F5218E4EF6900F2B416 /* QuartzCore.framework */; };
 		01024F6518E5B5E700F2B416 /* Konashi.m in Sources */ = {isa = PBXBuildFile; fileRef = 01024F6318E5B5E700F2B416 /* Konashi.m */; };
-		01024F6A18E5B98C00F2B416 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01024F6718E5B98C00F2B416 /* SVProgressHUD.bundle */; };
-		01024F6B18E5B98C00F2B416 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 01024F6918E5B98C00F2B416 /* SVProgressHUD.m */; };
 		01024F6F18E66BB700F2B416 /* Mpression-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 01024F6E18E66BB700F2B416 /* Mpression-small.png */; };
 		0117C4F7192B9E0C005E27D9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0117C4F6192B9E0C005E27D9 /* AVFoundation.framework */; };
 		0117C4F9192C31C0005E27D9 /* Fire_Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0117C4F8192C31C0005E27D9 /* Fire_Alarm.mp3 */; };
@@ -47,6 +45,7 @@
 		01D9BE3F192B995000E96860 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D9BE3E192B995000E96860 /* AudioToolbox.framework */; };
 		01F1287C18F62242005AAFD1 /* alert-146730_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F1287B18F62242005AAFD1 /* alert-146730_640.png */; };
 		01F1288818F6683F005AAFD1 /* Adxl345.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F1288718F6683F005AAFD1 /* Adxl345.m */; };
+		AC085FA3197B9206005482F5 /* Uzuki.m in Sources */ = {isa = PBXBuildFile; fileRef = AC085FA2197B9206005482F5 /* Uzuki.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,9 +85,6 @@
 		01024F6218E5B5E700F2B416 /* Konashi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Konashi.h; sourceTree = "<group>"; };
 		01024F6318E5B5E700F2B416 /* Konashi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi.m; sourceTree = "<group>"; };
 		01024F6418E5B5E700F2B416 /* KonashiDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KonashiDb.h; sourceTree = "<group>"; };
-		01024F6718E5B98C00F2B416 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		01024F6818E5B98C00F2B416 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		01024F6918E5B98C00F2B416 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		01024F6E18E66BB700F2B416 /* Mpression-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mpression-small.png"; sourceTree = "<group>"; };
 		0117C4F6192B9E0C005E27D9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0117C4F8192C31C0005E27D9 /* Fire_Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fire_Alarm.mp3; sourceTree = "<group>"; };
@@ -111,6 +107,8 @@
 		01F1287B18F62242005AAFD1 /* alert-146730_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alert-146730_640.png"; path = "konashiSensorShield/alert-146730_640.png"; sourceTree = "<group>"; };
 		01F1288618F6683F005AAFD1 /* Adxl345.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Adxl345.h; path = Sensors/Adxl345.h; sourceTree = "<group>"; };
 		01F1288718F6683F005AAFD1 /* Adxl345.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Adxl345.m; path = Sensors/Adxl345.m; sourceTree = "<group>"; };
+		AC085FA1197B9206005482F5 /* Uzuki.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uzuki.h; sourceTree = "<group>"; };
+		AC085FA2197B9206005482F5 /* Uzuki.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Uzuki.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +142,7 @@
 		01024F0C18E4EF4B00F2B416 = {
 			isa = PBXGroup;
 			children = (
+				AC085FA0197B91B6005482F5 /* Uzuki */,
 				0117C4F8192C31C0005E27D9 /* Fire_Alarm.mp3 */,
 				01F1288618F6683F005AAFD1 /* Adxl345.h */,
 				01F1288718F6683F005AAFD1 /* Adxl345.m */,
@@ -247,19 +246,17 @@
 				01024F6218E5B5E700F2B416 /* Konashi.h */,
 				01024F6318E5B5E700F2B416 /* Konashi.m */,
 				01024F6418E5B5E700F2B416 /* KonashiDb.h */,
-				01024F6618E5B98C00F2B416 /* SVProgressHUD */,
 			);
 			path = Konashi;
 			sourceTree = "<group>";
 		};
-		01024F6618E5B98C00F2B416 /* SVProgressHUD */ = {
+		AC085FA0197B91B6005482F5 /* Uzuki */ = {
 			isa = PBXGroup;
 			children = (
-				01024F6718E5B98C00F2B416 /* SVProgressHUD.bundle */,
-				01024F6818E5B98C00F2B416 /* SVProgressHUD.h */,
-				01024F6918E5B98C00F2B416 /* SVProgressHUD.m */,
+				AC085FA1197B9206005482F5 /* Uzuki.h */,
+				AC085FA2197B9206005482F5 /* Uzuki.m */,
 			);
-			path = SVProgressHUD;
+			path = Uzuki;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,7 +343,6 @@
 				01894EF918EE94FC00E72836 /* lgi01c201309250600.jpg in Resources */,
 				01894EEF18EE8A4900E72836 /* weather_ca_013.png in Resources */,
 				01894EE518EE854A00E72836 /* weather_ca_007.png in Resources */,
-				01024F6A18E5B98C00F2B416 /* SVProgressHUD.bundle in Resources */,
 				01894EEE18EE8A4900E72836 /* weather_ca_011.png in Resources */,
 				01F1287C18F62242005AAFD1 /* alert-146730_640.png in Resources */,
 				01024F3418E4EF4B00F2B416 /* Images.xcassets in Resources */,
@@ -382,11 +378,11 @@
 			files = (
 				01024F3218E4EF4B00F2B416 /* SecondViewController.m in Sources */,
 				01024F2918E4EF4B00F2B416 /* AppDelegate.m in Sources */,
+				AC085FA3197B9206005482F5 /* Uzuki.m in Sources */,
 				01024F2F18E4EF4B00F2B416 /* FirstViewController.m in Sources */,
 				01024F2518E4EF4B00F2B416 /* main.m in Sources */,
 				01F1288818F6683F005AAFD1 /* Adxl345.m in Sources */,
 				01024F6518E5B5E700F2B416 /* Konashi.m in Sources */,
-				01024F6B18E5B98C00F2B416 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
