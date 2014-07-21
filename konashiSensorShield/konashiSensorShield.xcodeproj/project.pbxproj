@@ -307,7 +307,7 @@
 				ORGANIZATIONNAME = Macnica;
 				TargetAttributes = {
 					01024F1418E4EF4B00F2B416 = {
-						DevelopmentTeam = XLNDPW956F;
+						DevelopmentTeam = 47E4YG5GZG;
 					};
 					01024F3818E4EF4B00F2B416 = {
 						TestTargetID = 01024F1418E4EF4B00F2B416;

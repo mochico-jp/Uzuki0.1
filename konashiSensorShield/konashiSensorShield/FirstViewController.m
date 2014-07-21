@@ -176,7 +176,6 @@ unsigned char *acc;
             _rhLabel.text = [NSString stringWithFormat:@"%.1f", rh];
             
             NSLog(@"RH: %f", rh);
-            NSLog(@" ");
             
             //_silabsLogo.hidden = NO;
             _rhLabel.hidden = NO;
@@ -193,7 +192,6 @@ unsigned char *acc;
             _tempLabel.text = [NSString stringWithFormat:@"%.1f", temp];
             
             NSLog(@"Temp:%f", temp);
-            NSLog(@" ");
             
             //_silabsLogo.hidden = YES;
             _tempLabel.hidden = NO;
@@ -203,8 +201,7 @@ unsigned char *acc;
             
             _dciLabel.text = [NSString stringWithFormat:@"%d", dcindex];
             
-            NSLog(@"DCI:%d", dcindex);
-            NSLog(@" ");
+            //NSLog(@"DCI:%d", dcindex);
             
             _dciTitle.hidden = NO;
             
@@ -251,7 +248,7 @@ unsigned char *acc;
             _ambientLight.text = [NSString stringWithFormat:@"%d", uvi];
             
             NSLog(@"UVI: %d", uvi);
-            NSLog(@" ");
+            //NSLog(@" ");
             
             //_silabsLogo.hidden = NO;
             _ambientLight.hidden = NO;

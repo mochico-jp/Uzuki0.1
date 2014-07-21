@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5EC87DC8-A949-4A10-A13F-ABA9DE2FBB52</string>
+	<key>IDESourceControlProjectName</key>
+	<string>konashiSensorShield</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6190D5C9-DE2D-4032-B12D-C0E138170BDE</key>
+		<string>https://github.com/mochico-jp/Uzuki0.1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>konashiSensorShield/konashiSensorShield.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6190D5C9-DE2D-4032-B12D-C0E138170BDE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mochico-jp/Uzuki0.1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6190D5C9-DE2D-4032-B12D-C0E138170BDE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6190D5C9-DE2D-4032-B12D-C0E138170BDE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Uzuki0.1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -8,9 +8,10 @@
 
 #import "Uzuki.h"
 
+static unsigned char data[3];
+
 @implementation Uzuki
 
-unsigned char *data;
 
 + (void)initialize
 {
@@ -176,7 +177,7 @@ unsigned char *data;
 {
     [self _readFromKonashi:1];
     
-    //NSLog(@"SHOCKED:%X", data[0]);
+    NSLog(@"SHOCKED:%X", data[0]);
     
     return data;
 }
